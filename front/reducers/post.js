@@ -6,7 +6,7 @@ export const initialState = {
         id: 1,
         nickname: 'minimax',
       },
-      content: '첫 번째 짹쨱 #해시태그 #넥스트',
+      content: '첫 번째 게시글',
       Images: [
         {
           src: 'https://i.ytimg.com/vi/l1Wu02Eq560/maxresdefault.jpg',
@@ -21,9 +21,15 @@ export const initialState = {
       Comments: [
         {
           User: {
-            nickname: 'min',
+            nickname: '지락실',
           },
-          content: '안유진 최고',
+          content: '안유진 최고~',
+        },
+        {
+          User: {
+            nickname: '나영석',
+          },
+          content: '우주최강 양파쿵야 안유진',
         },
       ],
     },
